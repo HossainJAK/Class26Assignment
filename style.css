@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.motherDiv {
+    width: 100%;
+    background: white;
+    /* text-align: center; */
+    margin: 15px auto;
+}
+.header-section {
+    /* width: 100%; */
+    background: none;
+    padding: 0px 10%;
+    border-top: 4px solid blue;
+}
+.header-section figure {
+    float: left;
+    padding-top: 15px;
+}
+.header-section figure h1 {
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    font-size: 40px;
+}
+.header-section nav {
+    float: right;
+}
+
+ 
+}
+.header-section nav ul {
+    display: inline-block;
+}
+
+
+
+.header-section nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ 
+
+.header-section nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    line-height: 5;
+}
+.banner {
+    background-image: url(./BannerBg.jpg);
+    background-size: 100%;
+    /* background-position: initial; */
+    width: 100%;
+    text-align: center;
+    padding: 102px 0px 201px 0px;
+}
+.banner p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* padding: 80px 0px; */
+    padding: 120px 0px 35px 0px;
+}
+.banner h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-top: 65px;
+}
+.banner button {
+    border: none;
+    background: #4949e4;
+    padding: 13px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    /* font-weight: 600; */
+    display: inline-block;
+}
+.videoSec{
+    background:white;
+    margin-bottom: 85px;
+    padding: 50px 0px;
+}
+.videoSec video {
+    width: 45%;
+    float: left;
+}
+.videoElement {
+    width: 50%;
+    float: right;
+    margin-top: 60px;
+}
+.videoElement article {
+    width: 100%;
+    background: white;
+    text-align: left;
+}
+.videoElement article h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.videoElement article p {
+    margin-bottom: 20px;
+}
+.Contactsection {
+    background: #F5F5F5;
+    padding: 85px 0px;
+    text-align: center;
+    width: 100%;
+}
+.contact{}
+.contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contact details {
+    width: 50%;
+    float: left;
+    text-align: start;
+}
+.contact details summary {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+/* .contact details summary i{} */
+.contact details p {
+    padding: 10px 20px;
+}
+.contact form {
+    width: 50%;
+    text-align: start;
+    float: left;
+}
+.contact form input {
+    width: 80%;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+.contact form button{
+    padding: 5px;
+}
+.footerBottom {
+    /* width: 100%; */
+    text-align: center;
+    background: #171A21;
+    padding: 50px;
+}
+.footerBottom p{
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+    
+}
